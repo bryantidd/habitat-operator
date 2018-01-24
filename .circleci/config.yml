@@ -27,3 +27,7 @@ jobs:
       - run:
           name: e2e tests
           command: make TESTIMAGE=kinvolk/habitat-operator:testing e2e
+      - run:
+          name: print logs
+          command: kubectl logs -lhabitat=true --tail=100
+          when: on_fail
