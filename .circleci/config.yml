@@ -4,6 +4,7 @@ jobs:
     machine: true
     environment:
       CHANGE_MINIKUBE_NONE_USER: true
+    working_directory: $USER/~.go_workspace/src/github.com/kinvolk/habitat-operator
     steps:
       - checkout
       - run:
