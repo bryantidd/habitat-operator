@@ -1,5 +1,20 @@
 # Habitat operator CHANGELOG
 
+## [v0.5.0](https://github.com/kinvolk/habitat-operator/tree/v0.5.0) (1-2-2018)
+[Full changelog](https://github.com/kinvolk/habitat-operator/compare/v0.4.0...v0.5.0)
+
+### Breaking changes
+
+* API downgrade from "v1" to "v1beta1" to better reflect the API instability [#167](https://github.com/kinvolk/habitat-operator/pull/167)
+
+### Features & Enhancements
+
+- Switch to e2e testing against RBAC enabled cluster and refactor tests [#151](https://github.com/kinvolk/habitat-operator/pull/151)
+- Add Name field [#155](https://github.com/kinvolk/habitat-operator/pull/155)
+- Update user.toml path and example images [#172](https://github.com/kinvolk/habitat-operator/pull/172)
+- Use cache for ConfigMaps [#157](https://github.com/kinvolk/habitat-operator/pull/157)
+- Add helm chart for the operator [#161](https://github.com/kinvolk/habitat-operator/pull/161)
+
 ## [v0.4.0](https://github.com/kinvolk/habitat-operator/tree/v0.4.0) (5-1-2018)
 [Full changelog](https://github.com/kinvolk/habitat-operator/compare/v0.3.0...v0.4.0)
 
